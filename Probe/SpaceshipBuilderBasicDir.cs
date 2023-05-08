@@ -2,7 +2,7 @@
 
 namespace Probe
 {
-	internal class SpaceshipBuilderBasicDir
+	internal class SpaceshipBuilderBasicDir : ISpaceshipBuilderBasicDir
 	{
 		private SpaceshipBuilder builder;
 
