@@ -7,7 +7,7 @@ using Probe.Interfaces;
 
 namespace Probe
 {
-    internal class Spaceship
+    internal class Spaceship : ISpaceship
 	{
 		public string Name { get; internal set; }
 		public ICrew Crew { get; internal set; }

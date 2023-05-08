@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Probe.Interfaces;
 
 namespace Probe
 {
-	internal class SpaceshipBuilderBasicDir
+	internal class SpaceshipBuilderBasicDir : ISpaceshipBuilderBasicDir
 	{
 		private SpaceshipBuilder builder;
 
