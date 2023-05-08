@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Probe.Interfaces;
 
 namespace Probe
 {
-	internal class Spaceship
+    internal class Spaceship
 	{
 		public string Name { get; internal set; }
 		public ICrew Crew { get; internal set; }
